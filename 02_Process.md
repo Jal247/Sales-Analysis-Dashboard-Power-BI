@@ -157,8 +157,6 @@ Workspace Publishing: Upload to the Power BI Service, set up a Scheduled Refresh
 
 Insights : Added a text box or a "Smart Narrative" visual.
 
-Example: "While the Technology category drives the highest sales, the Office Supplies segment has a 15% higher profit margin, suggesting we should shift marketing focus there.
+Interactive Elements: Used Slicers for "Year" around all 3 pages of Report and  "Region", "Segment"and on the top of the page 2 of the report.
 
-"Interactive Elements: Used Slicers for "Region" and "Year" on the side of the page.
-
-Tooltip Pages: (Advanced) Created a custom tooltip that shows a mini-chart of sales trends when a user hovers over a specific state. 
+Tooltip Pages: (Advanced) Created a custom tooltip that shows a details when a user hovers over a specific point. 
