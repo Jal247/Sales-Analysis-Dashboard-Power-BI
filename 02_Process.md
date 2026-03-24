@@ -37,14 +37,14 @@ Aimed to separate data into Fact Tables (transactions/numbers) and Dimension Tab
    - The Children (Dim/Fact Tables): Should perform specific cleaning (removing columns they don't need and removing duplicates for their specific IDs).
 
 
-```
+
 | Table Type | Table Name | Key Columns (The "What") |
 | :-- | :-- | :-- |
 | Fact | Fact_Sales | Order ID, Date, Sales, Profit, Quantity, Discount, Product ID, Customer Name. |
 | Dimension | Dim_Product | Product ID, Category, Sub-Category, Product Description. |
 | Dimension | Dim_Customer | Customer Name, Segment. |
 | Dimension | Dim_Location | Postal Code, City, State, Country, Region |
-```
+
 
 - Two ways to create a Dim_Date table. Both functions achieve the same goal—creating a list of dates—but they differ significantly in how they find the start/end dates and how much detail they provide.
 
@@ -66,14 +66,14 @@ Standardization: By using DATE(MinYear, 1, 1) and DATE(MaxYear, 12, 31), it ensu
 
 What you get: Not just a date list, but a pre-built calendar with Year, Month Name, Month Number, and Quarter already calculated.
 
-```
+
 | Feature | CALENDARAUTO() | Custom CALENDAR() Script |
 | :-- | :-- | :-- |
 | Control | None (Scans everything). | High (You choose the columns). |
 | Model Size | Can be huge if ""old"" dates exist. | Optimized for your specific data. |
 | Effort | Fast to write, more work to add columns. | One-time setup, columns are built-in. |
 | Suitability | Simple, small models. | Professional/Enterprise models. |
-```
+
 
 ## 2. Data Modeling 
  
