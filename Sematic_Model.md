@@ -1,2 +1,3 @@
+Sematic Model 
 
-c:\Jalpa\Job Applied\26\Helic & Co._JrDA\Sematic_Model.png
+<img width="1865" height="855" alt="Sematic_Model" src="https://github.com/user-attachments/assets/e02ed2d0-c989-4258-ab70-50ea8e1f2063" />
